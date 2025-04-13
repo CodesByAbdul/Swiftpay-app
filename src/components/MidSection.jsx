@@ -11,7 +11,7 @@ const MidSection = () => {
           <a href="https://apple.com"><img className='w-4' src="/assets/ic_baseline-apple.svg" alt="Apple logo"  /></a>
           <a href="https://playstore.com"><img className='w-4' src="/assets/mage_playstore.svg" alt="Playstore logo"  /></a>
         </div>
-      <div className='w-[60%] m-auto'><img src="./src/assets/Frame 4.png" alt="" /></div>
+      <div className='w-[60%] m-auto'><img src="/assets/Frame4.png" alt="" /></div>
     </div>
   )
 }

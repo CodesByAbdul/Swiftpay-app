@@ -19,7 +19,7 @@ const About2 = () => {
           <a href="https://playstore.com"><img className='w-4' src="/assets/mage_playstore.svg" alt="Playstore logo"  /></a>
         </div>
       </div>
-      <div className='w-full mx-auto rounded-2xl overflow-y-hidden h-[80vh] bg-[#ececec] px-30 pt-30'><img className='' src="/assets/iMockup.png" alt="" /></div>
+      <div className='w-full mx-auto rounded-2xl overflow-y-hidden h-[80vh] bg-[#ececec] px-30 pt-30'><img className='w-ful h-full' src="/assets/iMockup.png" alt="" /></div>
     </div>
   )
 }
