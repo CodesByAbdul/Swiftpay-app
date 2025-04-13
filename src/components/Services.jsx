@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='text-center my-4 pt-20'>
+    <div className='text-center pt-20'>
       <div className='text-[10px] bg-white w-max m-auto p-1.5 rounded-full mb-2'>Services</div>
       <div className='text-xl/5 font-bold'>Premium Financial <br />Services and Beyond</div>
       <div className='text-sm my-2'>Enjoy seamless financial services. Send money,<br />Pay bills, Target savings and utilize an AI assistant.</div>
