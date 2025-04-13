@@ -31,7 +31,7 @@ const About = () => {
             <p className="text-2xl font-bold my-1">2K+</p>
             <p>Happy users</p>
           </div>
-          <div className="bg-black text-white rounded-xl h-34 p-6 w-full">
+          <div className="bg-black text-white rounded-xl h-38 p-6 w-full">
             <div className='flex gap-1'>
               <img src="/assets/star.svg" alt="" />
               <img src="/assets/star.svg" alt="" />
