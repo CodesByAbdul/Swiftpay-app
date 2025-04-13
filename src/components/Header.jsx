@@ -126,7 +126,7 @@ const Header = () => {
         </button>
       </header>
 
-      <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-gradient-to-b from-gray-800 to-gray-900 text-white p-4 text-center fixed top-16 left-0 right-0 h-screen z-40`}>
+      <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-gray-500 text-white p-4 text-center fixed top-16 left-0 right-0 h-screen z-40`}>
         <ul>
           <li>
             <a 
