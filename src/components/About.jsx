@@ -6,20 +6,20 @@ const About = () => {
       <div className="about-section1 p-4 bg-[#ececec] md:w-full rounded-lg shadow-lg">
         <div className="flex justify-start items-center gap-3 md:mb-12">
           <div className='flex -gap-2'>
-            <img src="./src/assets/Ellipse1.png" alt="" className='ml-2' />
-            <img src="./src/assets/Ellipse2.png" alt="" className='-ml-2' />
-            <img src="./src/assets/Ellipse3.png" alt="" className='-ml-2' />
-            <img src="./src/assets/Ellipse5.png" alt="" className='-ml-2' />
+            <img src="/assets/Ellipse1.png" alt="" className='ml-2' />
+            <img src="/assets/Ellipse2.png" alt="" className='-ml-2' />
+            <img src="/assets/Ellipse3.png" alt="" className='-ml-2' />
+            <img src="/assets/Ellipse5.png" alt="" className='-ml-2' />
           </div>
           <p className='text-sm'>Join over 2000+ active and happy users</p>
         </div>
         <div className="bg-white p-4 m-2 mt-4 rounded-lg shadow-lg md:mb-12">
           <div className="text-black flex justify-between items-center mb-4">
             <div className=''>
-              <div className="star flex"><img src="./src/assets/star.svg" alt="" /><img src="./src/assets/star.svg" alt="" /><img src="./src/assets/star.svg" alt="" /><img src="./src/assets/star.svg" alt="" /></div>
+              <div className="star flex"><img src="/assets/star.svg" alt="" /><img src="/assets/star.svg" alt="" /><img src="/assets/star.svg" alt="" /><img src="/assets/star.svg" alt="" /></div>
               <div className="name text-1xl">Amy Barker</div>
             </div>
-            <div className='flex gap-2'><img className='bg-slate-200 p-2 rounded-full' src="./src/assets/arrow-left.svg" alt="" /><img className='bg-slate-200 p-2 rounded-full' src="./src/assets/arrow-right.svg" alt="" /></div>
+            <div className='flex gap-2'><img className='bg-slate-200 p-2 rounded-full' src="/assets/arrow-left.svg" alt="" /><img className='bg-slate-200 p-2 rounded-full' src="/assets/arrow-right.svg" alt="" /></div>
           </div>
           <div className='text-sm text-gray-900 md:text-base'>
           I have been able to save more money since joining Swift pay. Their Target Savings is Amazing. I have been able to save more money since joining Swift pay. Their Target Savings is Amazing.
@@ -27,16 +27,16 @@ const About = () => {
         </div>
         <div className="flex justify-between items-center gap-6 m-2 mt-6">
           <div className="bg-white text-black rounded-xl h-34 p-6 w-full">
-            <img src="./src/assets/emoji.svg" alt="" />
+            <img src="/assets/emoji.svg" alt="" />
             <p className="text-2xl font-bold my-1">2K+</p>
             <p>Happy users</p>
           </div>
           <div className="bg-black text-white rounded-xl h-34 p-6 w-full">
             <div className='flex gap-1'>
-              <img src="./src/assets/star.svg" alt="" />
-              <img src="./src/assets/star.svg" alt="" />
-              <img src="./src/assets/star.svg" alt="" />
-              <img src="./src/assets/star.svg" alt="" />
+              <img src="/assets/star.svg" alt="" />
+              <img src="/assets/star.svg" alt="" />
+              <img src="/assets/star.svg" alt="" />
+              <img src="/assets/star.svg" alt="" />
             </div>
             <p className="text-2xl font-bold my-1">4.0</p>
             <p>Average rating</p>
@@ -56,8 +56,8 @@ const About = () => {
         </div>
         <div className="hero-btn bg-black hover:bg-gray-800 text-white p-2 flex items-center space-x-1 w-max rounded-full cursor-pointer">
           <button className='cursor-pointer'>Download</button>
-          <a href="https://apple.com"><img className='w-4' src="./src/assets/ic_baseline-apple.svg" alt="Apple logo"  /></a>
-          <a href="https://playstore.com"><img className='w-4' src="./src/assets/mage_playstore.svg" alt="Playstore logo"  /></a>
+          <a href="https://apple.com"><img className='w-4' src="/assets/ic_baseline-apple.svg" alt="Apple logo"  /></a>
+          <a href="https://playstore.com"><img className='w-4' src="/assets/mage_playstore.svg" alt="Playstore logo"  /></a>
         </div>
       </div>
 

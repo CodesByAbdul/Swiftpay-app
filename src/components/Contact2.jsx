@@ -13,12 +13,12 @@ const Contact2 = () => {
         <div className="hero-footer mt-auto">
           <p>2000+ active users</p>
           <div className="hero-footer-img flex -gap-2 m-2">
-            <img className="-ml-2" src="./src/assets/Ellipse1.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse2.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse6.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse4.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse5.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse3.png" alt="customer" />
+            <img className="-ml-2" src="/assets/Ellipse1.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse2.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse6.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse4.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse5.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse3.png" alt="customer" />
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@ const Contact2 = () => {
         <h2 className="hero-main text-3xl font-semibold my-4 md:my-2 md:text-4xl">Revolutionary AI Incorporated Fintech</h2>
         <p className="hero-sub text-sm mb-4">Join us, let’s break barriers together.</p>
         <div className="w-auto overflow-hidden">
-          <img className='w-full' src="./src/assets/iMockup1.png" alt="" />
+          <img className='w-full' src="/assets/iMockup1.png" alt="" />
         </div>
       </div>
     </div>

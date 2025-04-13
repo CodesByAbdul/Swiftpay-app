@@ -10,23 +10,23 @@ const Hero = () => {
         <p className="hero-sub text-[16px] mb-4">Experience seamless transaction with our our revolutionary AI incorporated mobile application. We simplify the mode of payments by providing 24/7 accessibility and all round security.</p>
         <div className="hero-btn bg-black hover:bg-gray-800 text-white p-2 flex items-center space-x-1 w-max rounded-full cursor-pointer mb-12">
           <button className='cursor-pointer'>Download</button>
-          <a href="https://apple.com"><img className='w-4' src="./src/assets/ic_baseline-apple.svg" alt="Apple logo"  /></a>
-          <a href="https://playstore.com"><img className='w-4' src="./src/assets/mage_playstore.svg" alt="Playstore logo"  /></a>
+          <a href="https://apple.com"><img className='w-4' src="/assets/ic_baseline-apple.svg" alt="Apple logo"  /></a>
+          <a href="https://playstore.com"><img className='w-4' src="/assets/mage_playstore.svg" alt="Playstore logo"  /></a>
         </div>
         <div className="hero-footer mb-10">
           <p>2000+ active users</p>
           <div className="hero-footer-img flex -gap-2 m-2">
-            <img className="-ml-2" src="./src/assets/Ellipse1.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse2.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse6.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse4.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse5.png" alt="" />
-            <img className="-ml-2" src="./src/assets/Ellipse3.png" alt="customer" />
+            <img className="-ml-2" src="/assets/Ellipse1.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse2.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse6.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse4.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse5.png" alt="" />
+            <img className="-ml-2" src="/assets/Ellipse3.png" alt="customer" />
           </div>
         </div>
       </div>
       <div className='hero-img md:w-1/2 flex justify-center items-center w-[90%] m-auto'>
-        <img src="./src/assets/frame.png" alt="Hero image" className='hero-img w-auto h-auto' />
+        <img src="/assets/Frame.png" alt="Hero image" className='hero-img w-auto h-auto' />
       </div>
     </div>
   )

@@ -68,7 +68,7 @@ const Header = () => {
     <div className='fixed top-0 left-0 w-full h-16 bg-white shadow-md z-50'>
       <header className="header text-black flex justify-between items-center p-4 px-6">
         <div className="logo w-8 flex gap-2 font-bold text-2xl">
-          <img src="./src/assets/logo.png" alt="" /> SWIFTPAY
+          <img src="/assets/logo.png" alt="" /> SWIFTPAY
         </div>
         <div className='md:flex items-center space-x-4 hidden'>
           <nav>
@@ -109,8 +109,8 @@ const Header = () => {
           </nav>
           <div className="hero-btn bg-black hover:bg-gray-800 text-white p-2 flex items-center space-x-1 w-max rounded-full cursor-pointer">
             <button className='cursor-pointer'>Download</button>
-            <a href="https://apple.com"><img className='w-4' src="./src/assets/ic_baseline-apple.svg" alt="Apple logo" /></a>
-            <a href="https://playstore.com"><img className='w-4' src="./src/assets/mage_playstore.svg" alt="Playstore logo" /></a>
+            <a href="https://apple.com"><img className='w-4' src="/assets/ic_baseline-apple.svg" alt="Apple logo" /></a>
+            <a href="https://playstore.com"><img className='w-4' src="/assets/mage_playstore.svg" alt="Playstore logo" /></a>
           </div>
         </div>
         <button onClick={toggleMenu} id="hamburger" className="md:hidden text-black focus:outline-none hover:text-gray-500">
@@ -167,8 +167,8 @@ const Header = () => {
         </ul>
         <div className="hero-btn bg-black hover:bg-gray-800 text-white p-2 flex items-center space-x-1 w-max rounded-3xl mb-12 mx-auto cursor-pointer">
           <button className='cursor-pointer'>Download</button>
-          <a href="https://apple.com"><img className='w-4' src="./src/assets/ic_baseline-apple.svg" alt="Apple logo" /></a>
-          <a href="https://playstore.com"><img className='w-4' src="./src/assets/mage_playstore.svg" alt="Playstore logo" /></a>
+          <a href="https://apple.com"><img className='w-4' src="/assets/ic_baseline-apple.svg" alt="Apple logo" /></a>
+          <a href="https://playstore.com"><img className='w-4' src="/assets/mage_playstore.svg" alt="Playstore logo" /></a>
         </div>
       </div>
     </div>

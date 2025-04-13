@@ -279,7 +279,7 @@ const Testimonials = () => {
     return Array(rating)
       .fill()
       .map((_, index) => (
-        <img key={index} src="./src/assets/star.svg" alt="star rating" className="w-4 h-4" />
+        <img key={index} src="/assets/star.svg" alt="star rating" className="w-4 h-4" />
       ));
   };
 
@@ -314,10 +314,10 @@ const Testimonials = () => {
         </h3>
         <p className="text-[14px]">Over 2000+ Average 4-star rating.</p>
         <div className="flex justify-center">
-          <img src="./src/assets/star.svg" alt="star" />
-          <img src="./src/assets/star.svg" alt="star" />
-          <img src="./src/assets/star.svg" alt="star" />
-          <img src="./src/assets/star.svg" alt="star" />
+          <img src="/assets/star.svg" alt="star" />
+          <img src="/assets/star.svg" alt="star" />
+          <img src="/assets/star.svg" alt="star" />
+          <img src="/assets/star.svg" alt="star" />
         </div>
       </div>
 
@@ -404,14 +404,14 @@ const Testimonials = () => {
               onClick={previousTestimonial}
               aria-label="Previous testimonial"
             >
-              <img src="./src/assets/arrow-left.svg" alt="Previous" />
+              <img src="/assets/arrow-left.svg" alt="Previous" />
             </button>
             <button 
               className="p-2 bg-white rounded-full hover:bg-gray-100 transition-colors"
               onClick={nextTestimonial}
               aria-label="Next testimonial"
             >
-              <img src="./src/assets/arrow-right.svg" alt="Next" />
+              <img src="/assets/arrow-right.svg" alt="Next" />
             </button>
           </div>
         </div>
